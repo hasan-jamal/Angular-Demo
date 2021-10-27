@@ -1,0 +1,27 @@
+table td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+   
+}
+table .tableFeat{
+    width: 50%;
+}
+table  i{
+    border-radius: 50%;
+    color: #4CB5FF;
+    font-size: 25px;
+    background-color: #4CAF50;
+}
+#subscribe button{
+    border-top:1px solid #fff;
+    border-radius: 40px;
+  
+    font-size: 18px;
+   
+}
+#subscribe button:hover{
+      background-color: #4CB5FF;
+      color: white !important;
+    
+}

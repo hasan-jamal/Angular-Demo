@@ -1,0 +1,19 @@
+.navbar {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+nav #navbarCollapse .navbar-nav li a {
+  cursor: pointer;
+}
+nav #navbarCollapse .navbar-nav li a:hover {
+  border-bottom: 3px solid rgb(1, 15, 218);
+  font-weight: bold;
+}
+
+.button-store {
+  border: 1px solid #3d0c8a;
+  border-radius: 20px;
+}
+.button-store:hover {
+  padding-top: -3px;
+}

@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-sm bg-none navbar-light mb-4">
+  <div class="container">
+    <!-- <a href="" class="navbar-brand "><img src="../images/Mask Group 36@2x.png" alt="brand"></a> -->
+    <button
+      (click)="this.buttonHeader = !this.buttonHeader"
+      class="navbar-toggler mr-auto"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      [attr.aria-expanded]="!buttonHeader"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse p-3 text-right"
+      id="navbarCollapse"
+      [ngbCollapse]="buttonHeader"
+    >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item order-7 px-2">
+          <a routerLink="" routerLinkActive="active" class="nav-link"
+            >الرئيسية</a
+          >
+        </li>
+        <li class="nav-item order-6 px-2">
+          <a routerLink="/prices" routerLinkActive="active" class="nav-link"
+            >الأسعار</a
+          >
+        </li>
+        <li class="nav-item order-5 px-2">
+          <a routerLink="/stores" routerLinkActive="active" class="nav-link"
+            >المتاجر</a
+          >
+        </li>
+        <li class="nav-item order-4 px-2">
+          <a routerLink="/privecy" routerLinkActive="active" class="nav-link"
+            >سياسية الخصوصيه</a
+          >
+        </li>
+        <li class="nav-item order-3 px-2">
+          <a routerLink="/theUse" routerLinkActive="active" class="nav-link"
+            >سياسة الاستخدام</a
+          >
+        </li>
+        <li class="nav-item order-2 px-2">
+          <a routerLink="/signIn" class="nav-link">تسجيل الدخول</a>
+        </li>
+        <li class="nav-item order-1 px-2">
+          <a routerLink="/signUp" class="nav-link">تسجيل جديد </a>
+        </li>
+      </ul>
+    </div>
+
+    <img
+      width="15%"
+      class=""
+      src="https://www.logolynx.com/images/logolynx/75/756f3029299c70d375f33d6f7ec855f2.png"
+      alt="dsd"
+    />
+  </div>
+</nav>

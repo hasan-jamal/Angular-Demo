@@ -1,0 +1,25 @@
+#cards a{
+    border-radius: 20px;
+    border:1px solid#1E2147;
+    color: black;
+
+}
+#cards a:hover{
+    color: white;
+    background-color: #4CB5FF;
+}
+#cards .card{
+    border-radius: 20px;
+    
+}
+#cards .col-md-3{
+   
+   padding: 0;
+   margin: 7px;
+  
+
+}
+#cards .col-md-3 .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}

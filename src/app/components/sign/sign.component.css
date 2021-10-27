@@ -1,0 +1,57 @@
+#signInput input {
+  border: none !important;
+}
+/* ّ*{
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)  !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+} */
+
+.form-group {
+  width: 70%;
+  border-right: 3px solid #3d0c8a;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+.form-group:hover {
+  width: 80%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-right: 5px solid #3d0c8a;
+}
+.media {
+  background-color: white;
+}
+#img-signup img {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  height: 350px;
+}
+#signInput .flex {
+}
+@media (max-width: 767px) {
+  #img-signup img {
+    order: 1000;
+  }
+  #form-signup {
+    order: 1;
+  }
+  #signInput .grid-element {
+    margin-left: 50px;
+  }
+  #flex-box .flex-1 {
+    order: 1;
+  }
+  #flex-box .flex-2 {
+    order: 1000;
+  }
+}
+@media (max-width: 991px) {
+  #signInput .img-signUp img {
+    order: 1000;
+  }
+  #signInput .grid-elements {
+    order: 1;
+  }
+}

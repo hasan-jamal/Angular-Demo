@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body{
+    background-image: url(../src/app/components/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+p{
+    font-family: Roboto;
+}
+h1{
+    font-family: Roboto;
+}
